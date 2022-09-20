@@ -1,0 +1,12 @@
+lib: [
+  "_build/install/default/lib/welcome/META"
+  "_build/install/default/lib/welcome/dune-package"
+  "_build/install/default/lib/welcome/opam"
+]
+bin: [
+  "_build/install/default/bin/welcome.exe"
+]
+doc: [
+  "_build/install/default/doc/welcome/LICENSE"
+  "_build/install/default/doc/welcome/README.md"
+]

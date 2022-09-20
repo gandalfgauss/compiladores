@@ -1,0 +1,6 @@
+(** @canonical Mylib.Hello *)
+module Hello = Mylib__Hello
+
+
+(** @canonical Mylib.Test *)
+module Test = Mylib__Test

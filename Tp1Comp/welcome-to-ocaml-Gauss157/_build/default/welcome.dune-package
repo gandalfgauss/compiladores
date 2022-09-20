@@ -1,0 +1,7 @@
+(lang dune 3.0)
+(name welcome)
+(sections (lib .) (bin ../../bin) (doc ../../doc/welcome))
+(files
+ (lib (META dune-package opam))
+ (bin (welcome.exe))
+ (doc (LICENSE README.md)))
