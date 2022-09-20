@@ -1,0 +1,4 @@
+(lang dune 3.0)
+(name trivia_semantic)
+(sections (lib .) (doc ../../doc/trivia_semantic))
+(files (lib (META dune-package opam)) (doc (LICENSE README.md)))

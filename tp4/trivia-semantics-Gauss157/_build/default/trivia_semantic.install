@@ -1,0 +1,9 @@
+lib: [
+  "_build/install/default/lib/trivia_semantic/META"
+  "_build/install/default/lib/trivia_semantic/dune-package"
+  "_build/install/default/lib/trivia_semantic/opam"
+]
+doc: [
+  "_build/install/default/doc/trivia_semantic/LICENSE"
+  "_build/install/default/doc/trivia_semantic/README.md"
+]

@@ -1,0 +1,139 @@
+# C:\OCaml64\home\halli\.opam\4.13.1+mingw64c\bin\dune.exe runtest
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root:
+# "C:\\Users\\halli\\Desktop\\7Periodo\\Compiladores\\Tp\\tp4\\trivia-semantics-Gauss157"
+$ C:\OCaml64\home\halli\.opam\4.13.1+mingw64c\bin\ocamlc.opt.exe -config > C:\OCaml64\tmp\dune_5869ee_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "C:/OCaml64/home/halli/.opam/4.13.1+mingw64c/lib/toplevel"
+#  ; ocaml_bin =
+#      External "C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\\bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\\bin\\ocaml.exe"
+#  ; ocamlc =
+#      External
+#        "C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\\bin\\ocamlc.opt.exe"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\\bin\\ocamlopt.opt.exe"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\\bin\\ocamldep.opt.exe"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\\bin\\ocamlmklib.opt.exe"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "C:\\\\OCaml64\\\\home\\\\halli\\\\.opam\\\\4.13.1+mingw64c\\lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "C:/OCaml64/home/halli/.opam/4.13.1+mingw64c/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "C:\\Users\\halli\\Desktop\\7Periodo\\Compiladores\\Tp\\tp4\\trivia-semantics-Gauss157"
+#        ; "INSIDE_DUNE" :
+#            "C:\\Users\\halli\\Desktop\\7Periodo\\Compiladores\\Tp\\tp4\\trivia-semantics-Gauss157\\_build/default"
+#        ; "MANPATH" :
+#            "C:\\Users\\halli\\Desktop\\7Periodo\\Compiladores\\Tp\\tp4\\trivia-semantics-Gauss157\\_build/install/default/bin"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "C:\\Users\\halli\\Desktop\\7Periodo\\Compiladores\\Tp\\tp4\\trivia-semantics-Gauss157\\_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "C:\\Users\\halli\\Desktop\\7Periodo\\Compiladores\\Tp\\tp4\\trivia-semantics-Gauss157\\_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "C:\\Users\\halli\\Desktop\\7Periodo\\Compiladores\\Tp\\tp4\\trivia-semantics-Gauss157\\_build/install/default/lib/toplevel"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "C:\\\\OCaml64\\\\home\\\\halli\\\\.opam\\\\4.13.1+mingw64c\\lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.13.1"
+#      ; standard_library_default =
+#          "C:/cygwin/home/appveyor/.opam/4.13.1+mingw64c/lib/ocaml"
+#      ; standard_library =
+#          "C:/OCaml64/home/halli/.opam/4.13.1+mingw64c/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "x86_64-w64-mingw32-gcc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlc_cppflags = []
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlopt_cppflags = []
+#      ; bytecomp_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; native_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; native_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; native_pack_linker = [ "x86_64-w64-mingw32-ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "mingw64"
+#      ; asm = [ "x86_64-w64-mingw32-gcc"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ".exe"
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".dll"
+#      ; os_type = "Win32"
+#      ; default_executable_name = "camlprog.exe"
+#      ; systhread_supported = true
+#      ; host = "x86_64-w64-mingw32"
+#      ; target = "x86_64-w64-mingw32"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X030"
+#      ; cmi_magic_number = "Caml1999I030"
+#      ; cmo_magic_number = "Caml1999O030"
+#      ; cma_magic_number = "Caml1999A030"
+#      ; cmx_magic_number = "Caml1999Y030"
+#      ; cmxa_magic_number = "Caml1999Z030"
+#      ; ast_impl_magic_number = "Caml1999M030"
+#      ; ast_intf_magic_number = "Caml1999N030"
+#      ; cmxs_magic_number = "Caml1999D030"
+#      ; cmt_magic_number = "Caml1999T030"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = true
+#      }
+#  }
+$ (cd _build/default && C:\OCaml64\home\halli\.opam\4.13.1+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -g -bin-annot -I src/lib/.compiler.inline-tests/.compiler.inline-tests.eobjs/byte -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\base_internalhash_types -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\caml -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\shadow_stdlib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\default_config -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\dyn -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\lib_default -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\library -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\jane-street-headers -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_compare\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_deriving\runtime -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_enumerate\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\collector -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\common -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\config -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\config_types -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\evaluator -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\matcher -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_hash\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_here\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\config -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\runner/lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_sexp_conv\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppxlib\print_diff -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\re -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\result -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\seq -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\sexplib0 -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\stdio -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\time_now -I src/lib/.compiler.objs/byte -no-alias-deps -o src/lib/.compiler.inline-tests/.compiler.inline-tests.eobjs/byte/dune__exe__Inline_test_runner_compiler.cmo -c -impl src/lib/.compiler.inline-tests/inline_test_runner_compiler.ml-gen)
+$ (cd _build/default && C:\OCaml64\home\halli\.opam\4.13.1+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -g -I src/lib/.compiler.inline-tests/.compiler.inline-tests.eobjs/byte -I src/lib/.compiler.inline-tests/.compiler.inline-tests.eobjs/native -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\base_internalhash_types -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\caml -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\shadow_stdlib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\default_config -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\dyn -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\lib_default -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\library -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\jane-street-headers -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_compare\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_deriving\runtime -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_enumerate\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\collector -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\common -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\config -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\config_types -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\evaluator -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\matcher -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_hash\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_here\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\config -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\runner/lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_sexp_conv\runtime-lib -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppxlib\print_diff -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\re -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\result -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\seq -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\sexplib0 -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\stdio -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\time_now -I src/lib/.compiler.objs/byte -I src/lib/.compiler.objs/native -intf-suffix .ml-gen -no-alias-deps -o src/lib/.compiler.inline-tests/.compiler.inline-tests.eobjs/native/dune__exe__Inline_test_runner_compiler.cmx -c -impl src/lib/.compiler.inline-tests/inline_test_runner_compiler.ml-gen)
+$ (cd _build/default && C:\OCaml64\home\halli\.opam\4.13.1+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -g -o src/lib/.compiler.inline-tests/inline_test_runner_compiler.exe C:/OCaml64/home/halli/.opam/4.13.1+mingw64c/lib/ocaml\unix.cmxa -I C:/OCaml64/home/halli/.opam/4.13.1+mingw64c/lib/ocaml C:/OCaml64/home/halli/.opam/4.13.1+mingw64c/lib/ocaml\bigarray.cmxa -I C:/OCaml64/home/halli/.opam/4.13.1+mingw64c/lib/ocaml C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\default_config/camomileDefaultConfig.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\library/camomileLibrary.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\lib_default/camomileLibraryDefault.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\dyn/camomileLibraryDyn.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\camomile\camomile_yuge.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\config/inline_test_config.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\base_internalhash_types/base_internalhash_types.cmxa -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\base_internalhash_types C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\caml/caml.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\sexplib0\sexplib0.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\shadow_stdlib/shadow_stdlib.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base\base.cmxa -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\base C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\jane-street-headers\jane_street_headers.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_sexp_conv\runtime-lib/ppx_sexp_conv_lib.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_compare\runtime-lib/ppx_compare_lib.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_enumerate\runtime-lib/ppx_enumerate_lib.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_hash\runtime-lib/ppx_hash_lib.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\time_now\time_now.cmxa -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\time_now C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\runtime-lib/ppx_inline_test_lib.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_here\runtime-lib/ppx_here_lib.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\common/expect_test_common.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\config_types/expect_test_config_types.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\collector/expect_test_collector.cmxa -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\collector C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\config/expect_test_config.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\result\result.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_deriving\runtime\ppx_deriving_runtime.cmxa src/lib/compiler.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\runner/lib/ppx_inline_test_runner_lib.cmxa -I C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_inline_test\runner/lib C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\stdio\stdio.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\re\re.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\matcher/expect_test_matcher.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppxlib\print_diff/ppxlib_print_diff.cmxa C:\\OCaml64\\home\\halli\\.opam\\4.13.1+mingw64c\lib\ppx_expect\evaluator/ppx_expect_evaluator.cmxa src/lib/.compiler.inline-tests/.compiler.inline-tests.eobjs/native/dune__exe__Inline_test_runner_compiler.cmx -linkall)
+$ (cd _build/default/src/lib && .compiler.inline-tests/inline_test_runner_compiler.exe inline-test-runner compiler -source-tree-root ../.. -diff-cmd -)
