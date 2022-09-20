@@ -1,0 +1,4 @@
+(lang dune 3.0)
+(name bcc328-2021-2)
+(sections (lib .) (doc ../../doc/bcc328-2021-2))
+(files (lib (META dune-package opam)) (doc (LICENSE README.md)))

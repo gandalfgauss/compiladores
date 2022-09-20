@@ -1,0 +1,31 @@
+type token =
+    THEN
+  | RPAREN
+  | PLUS
+  | LT
+  | LPAREN
+  | LITINT of int
+  | LET
+  | INT
+  | IN
+  | IF
+  | ID of Symbol.symbol
+  | EQ
+  | EOF
+  | ELSE
+  | COMMA
+  | BOOL
+val menhir_begin_marker : int
+val xv_typeids : Absyn.typeid list
+val xv_typeid : Absyn.typeid
+val xv_separated_nonempty_list_COMMA_typeid_ : Absyn.typeid list
+val xv_separated_nonempty_list_COMMA_exp_ : Absyn.lexp list
+val xv_program : Absyn.lprogram
+val xv_operator : Absyn.operator
+val xv_nonempty_list_fundec_ : Absyn.lfundec list
+val xv_funs : Absyn.lprogram
+val xv_fundecs : Absyn.lfundec list
+val xv_fundec : Absyn.lfundec
+val xv_exps : Absyn.lexp list
+val xv_exp : Absyn.lexp
+val menhir_end_marker : int

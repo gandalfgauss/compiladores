@@ -1,0 +1,9 @@
+lib: [
+  "_build/install/default/lib/bcc328-2021-2/META"
+  "_build/install/default/lib/bcc328-2021-2/dune-package"
+  "_build/install/default/lib/bcc328-2021-2/opam"
+]
+doc: [
+  "_build/install/default/doc/bcc328-2021-2/LICENSE"
+  "_build/install/default/doc/bcc328-2021-2/README.md"
+]
