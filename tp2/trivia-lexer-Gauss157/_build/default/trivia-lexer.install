@@ -1,0 +1,9 @@
+lib: [
+  "_build/install/default/lib/trivia-lexer/META"
+  "_build/install/default/lib/trivia-lexer/dune-package"
+  "_build/install/default/lib/trivia-lexer/opam"
+]
+doc: [
+  "_build/install/default/doc/trivia-lexer/LICENSE"
+  "_build/install/default/doc/trivia-lexer/README.md"
+]

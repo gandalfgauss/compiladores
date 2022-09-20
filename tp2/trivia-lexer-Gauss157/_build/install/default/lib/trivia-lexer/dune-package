@@ -1,0 +1,4 @@
+(lang dune 3.0)
+(name trivia-lexer)
+(sections (lib .) (doc ../../doc/trivia-lexer))
+(files (lib (META dune-package opam)) (doc (LICENSE README.md)))
